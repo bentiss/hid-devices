@@ -1,3 +1,72 @@
+# EVEMU 1.2
+# Input device name: "IDEACOM  IDC 6651"
+# Input device ID: bus 0x03 vendor 0x1cb6 product 0x6651 version 0000
+# Supported events:
+#   Event type 0 (EV_SYN)
+#     Event code 0 (SYN_REPORT)
+#     Event code 1 (SYN_CONFIG)
+#     Event code 3 (SYN_DROPPED)
+#   Event type 1 (EV_KEY)
+#     Event code 330 (BTN_TOUCH)
+#   Event type 3 (EV_ABS)
+#     Event code 0 (ABS_X)
+#       Value      0
+#       Min        0
+#       Max     8191
+#       Fuzz       0
+#       Flat       0
+#       Resolution 0
+#     Event code 1 (ABS_Y)
+#       Value      0
+#       Min        0
+#       Max     8191
+#       Fuzz       0
+#       Flat       0
+#       Resolution 1
+#     Event code 24 (ABS_PRESSURE)
+#       Value      0
+#       Min        0
+#       Max      255
+#       Fuzz       0
+#       Flat       0
+#       Resolution 0
+#     Event code 47 (ABS_MT_SLOT)
+#       Value      0
+#       Min        0
+#       Max        1
+#       Fuzz       0
+#       Flat       0
+#       Resolution 0
+#     Event code 53 (ABS_MT_POSITION_X)
+#       Value      0
+#       Min        0
+#       Max     8191
+#       Fuzz       0
+#       Flat       0
+#       Resolution 0
+#     Event code 54 (ABS_MT_POSITION_Y)
+#       Value      0
+#       Min        0
+#       Max     8191
+#       Fuzz       0
+#       Flat       0
+#       Resolution 1
+#     Event code 57 (ABS_MT_TRACKING_ID)
+#       Value      0
+#       Min        0
+#       Max    65535
+#       Fuzz       0
+#       Flat       0
+#       Resolution 0
+#     Event code 58 (ABS_MT_PRESSURE)
+#       Value      0
+#       Min        0
+#       Max      255
+#       Fuzz       0
+#       Flat       0
+#       Resolution 0
+# Properties:
+#   Property  type 1 (INPUT_PROP_DIRECT)
 N: IDEACOM  IDC 6651
 I: 0003 1cb6 6651 0000
 P: 02 00 00 00 00 00 00 00
@@ -22,14 +91,17 @@ B: 11 00 00 00 00 00 00 00 00
 B: 12 00 00 00 00 00 00 00 00
 B: 15 00 00 00 00 00 00 00 00
 B: 15 00 00 00 00 00 00 00 00
-A: 00 0 8191 0 0
-A: 01 0 8191 0 0
-A: 18 0 255 0 0
-A: 2f 0 1 0 0
-A: 35 0 8191 0 0
-A: 36 0 8191 0 0
-A: 39 0 65535 0 0
-A: 3a 0 255 0 0
+A: 00 0 8191 0 0 0
+A: 01 0 8191 0 0 1
+A: 18 0 255 0 0 0
+A: 2f 0 1 0 0 0
+A: 35 0 8191 0 0 0
+A: 36 0 8191 0 0 1
+A: 39 0 65535 0 0 0
+A: 3a 0 255 0 0 0
+################################
+#      Waiting for events      #
+################################
 E: 1357143946.584567 0003 0039 0
 E: 1357143946.584567 0003 0035 120
 E: 1357143946.584567 0003 0036 7968

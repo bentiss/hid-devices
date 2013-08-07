@@ -1,3 +1,100 @@
+# EVEMU 1.2
+# Input device name: "i2c_hid 04F3:200A"
+# Input device ID: bus 0x18 vendor 0x4f3 product 0x200a version 0000
+# Supported events:
+#   Event type 0 (EV_SYN)
+#     Event code 0 (SYN_REPORT)
+#     Event code 1 (SYN_CONFIG)
+#     Event code 3 (SYN_DROPPED)
+#   Event type 1 (EV_KEY)
+#     Event code 330 (BTN_TOUCH)
+#   Event type 3 (EV_ABS)
+#     Event code 0 (ABS_X)
+#       Value      0
+#       Min        0
+#       Max     3776
+#       Fuzz       0
+#       Flat       0
+#       Resolution 13
+#     Event code 1 (ABS_Y)
+#       Value      0
+#       Min        0
+#       Max     2112
+#       Fuzz       0
+#       Flat       0
+#       Resolution 13
+#     Event code 47 (ABS_MT_SLOT)
+#       Value      0
+#       Min        0
+#       Max        9
+#       Fuzz       0
+#       Flat       0
+#       Resolution 0
+#     Event code 48 (ABS_MT_TOUCH_MAJOR)
+#       Value      0
+#       Min        0
+#       Max      255
+#       Fuzz       0
+#       Flat       0
+#       Resolution 2
+#     Event code 49 (ABS_MT_TOUCH_MINOR)
+#       Value      0
+#       Min        0
+#       Max      255
+#       Fuzz       0
+#       Flat       0
+#       Resolution 2
+#     Event code 52 (ABS_MT_ORIENTATION)
+#       Value      0
+#       Min        0
+#       Max        1
+#       Fuzz       0
+#       Flat       0
+#       Resolution 0
+#     Event code 53 (ABS_MT_POSITION_X)
+#       Value      0
+#       Min        0
+#       Max     3776
+#       Fuzz       0
+#       Flat       0
+#       Resolution 13
+#     Event code 54 (ABS_MT_POSITION_Y)
+#       Value      0
+#       Min        0
+#       Max     2112
+#       Fuzz       0
+#       Flat       0
+#       Resolution 13
+#     Event code 57 (ABS_MT_TRACKING_ID)
+#       Value      0
+#       Min        0
+#       Max    65535
+#       Fuzz       0
+#       Flat       0
+#       Resolution 0
+#     Event code 59 (ABS_MT_DISTANCE)
+#       Value      0
+#       Min        0
+#       Max        1
+#       Fuzz       0
+#       Flat       0
+#       Resolution 0
+#     Event code 60 (ABS_MT_TOOL_X)
+#       Value      0
+#       Min        0
+#       Max     3776
+#       Fuzz       0
+#       Flat       0
+#       Resolution 13
+#     Event code 61 (ABS_MT_TOOL_Y)
+#       Value      0
+#       Min        0
+#       Max     2112
+#       Fuzz       0
+#       Flat       0
+#       Resolution 13
+# Properties:
+#   Property  type 1 (INPUT_PROP_DIRECT)
 N: i2c_hid 04F3:200A
 I: 0018 04f3 200a 0000
 P: 02 00 00 00 00 00 00 00
@@ -22,18 +119,21 @@ B: 11 00 00 00 00 00 00 00 00
 B: 12 00 00 00 00 00 00 00 00
 B: 15 00 00 00 00 00 00 00 00
 B: 15 00 00 00 00 00 00 00 00
-A: 00 0 3776 0 0
-A: 01 0 2112 0 0
-A: 2f 0 9 0 0
-A: 30 0 255 0 0
-A: 31 0 255 0 0
-A: 34 0 1 0 0
-A: 35 0 3776 0 0
-A: 36 0 2112 0 0
-A: 39 0 65535 0 0
-A: 3b 0 1 0 0
-A: 3c 0 3776 0 0
-A: 3d 0 2112 0 0
+A: 00 0 3776 0 0 13
+A: 01 0 2112 0 0 13
+A: 2f 0 9 0 0 0
+A: 30 0 255 0 0 2
+A: 31 0 255 0 0 2
+A: 34 0 1 0 0 0
+A: 35 0 3776 0 0 13
+A: 36 0 2112 0 0 13
+A: 39 0 65535 0 0 0
+A: 3b 0 1 0 0 0
+A: 3c 0 3776 0 0 13
+A: 3d 0 2112 0 0 13
+################################
+#      Waiting for events      #
+################################
 E: 1357144612.767802 0003 0039 0
 E: 1357144612.767802 0003 0035 1656
 E: 1357144612.767802 0003 0036 589
