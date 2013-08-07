@@ -1,3 +1,93 @@
+# EVEMU 1.2
+# Input device name: "N-trig DuoSense"
+# Input device ID: bus 0x03 vendor 0x1b96 product 0xf00 version 0000
+# Supported events:
+#   Event type 0 (EV_SYN)
+#     Event code 0 (SYN_REPORT)
+#     Event code 1 (SYN_CONFIG)
+#     Event code 3 (SYN_DROPPED)
+#   Event type 1 (EV_KEY)
+#     Event code 330 (BTN_TOUCH)
+#   Event type 3 (EV_ABS)
+#     Event code 0 (ABS_X)
+#       Value      0
+#       Min        0
+#       Max     9600
+#       Fuzz       0
+#       Flat       0
+#       Resolution 37
+#     Event code 1 (ABS_Y)
+#       Value      0
+#       Min        0
+#       Max     7200
+#       Fuzz       0
+#       Flat       0
+#       Resolution 50
+#     Event code 47 (ABS_MT_SLOT)
+#       Value      0
+#       Min        0
+#       Max       10
+#       Fuzz       0
+#       Flat       0
+#       Resolution 0
+#     Event code 48 (ABS_MT_TOUCH_MAJOR)
+#       Value      0
+#       Min        0
+#       Max     9600
+#       Fuzz       0
+#       Flat       0
+#       Resolution 67
+#     Event code 49 (ABS_MT_TOUCH_MINOR)
+#       Value      0
+#       Min        0
+#       Max     7200
+#       Fuzz       0
+#       Flat       0
+#       Resolution 50
+#     Event code 52 (ABS_MT_ORIENTATION)
+#       Value      0
+#       Min        0
+#       Max        1
+#       Fuzz       0
+#       Flat       0
+#       Resolution 0
+#     Event code 53 (ABS_MT_POSITION_X)
+#       Value      0
+#       Min        0
+#       Max     9600
+#       Fuzz       0
+#       Flat       0
+#       Resolution 37
+#     Event code 54 (ABS_MT_POSITION_Y)
+#       Value      0
+#       Min        0
+#       Max     7200
+#       Fuzz       0
+#       Flat       0
+#       Resolution 50
+#     Event code 57 (ABS_MT_TRACKING_ID)
+#       Value      0
+#       Min        0
+#       Max    65535
+#       Fuzz       0
+#       Flat       0
+#       Resolution 0
+#     Event code 60 (ABS_MT_TOOL_X)
+#       Value      0
+#       Min        0
+#       Max     9600
+#       Fuzz       0
+#       Flat       0
+#       Resolution 37
+#     Event code 61 (ABS_MT_TOOL_Y)
+#       Value      0
+#       Min        0
+#       Max     7200
+#       Fuzz       0
+#       Flat       0
+#       Resolution 50
+# Properties:
+#   Property  type 1 (INPUT_PROP_DIRECT)
 N: N-trig DuoSense
 I: 0003 1b96 0f00 0000
 P: 02 00 00 00 00 00 00 00
@@ -22,17 +112,20 @@ B: 11 00 00 00 00 00 00 00 00
 B: 12 00 00 00 00 00 00 00 00
 B: 15 00 00 00 00 00 00 00 00
 B: 15 00 00 00 00 00 00 00 00
-A: 00 0 9600 0 0
-A: 01 0 7200 0 0
-A: 2f 0 10 0 0
-A: 30 0 9600 0 0
-A: 31 0 7200 0 0
-A: 34 0 1 0 0
-A: 35 0 9600 0 0
-A: 36 0 7200 0 0
-A: 39 0 65535 0 0
-A: 3c 0 9600 0 0
-A: 3d 0 7200 0 0
+A: 00 0 9600 0 0 37
+A: 01 0 7200 0 0 50
+A: 2f 0 10 0 0 0
+A: 30 0 9600 0 0 67
+A: 31 0 7200 0 0 50
+A: 34 0 1 0 0 0
+A: 35 0 9600 0 0 37
+A: 36 0 7200 0 0 50
+A: 39 0 65535 0 0 0
+A: 3c 0 9600 0 0 37
+A: 3d 0 7200 0 0 50
+################################
+#      Waiting for events      #
+################################
 E: 1361057657.509215 0003 0039 0
 E: 1361057657.509215 0003 0035 176
 E: 1361057657.509215 0003 0036 49
