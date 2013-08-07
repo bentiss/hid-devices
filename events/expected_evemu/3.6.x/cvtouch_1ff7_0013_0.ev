@@ -1,3 +1,58 @@
+# EVEMU 1.2
+# Input device name: "Touch CVTouch Device W215-10P"
+# Input device ID: bus 0x03 vendor 0x1ff7 product 0x13 version 0000
+# Supported events:
+#   Event type 0 (EV_SYN)
+#     Event code 0 (SYN_REPORT)
+#     Event code 1 (SYN_CONFIG)
+#     Event code 3 (SYN_DROPPED)
+#   Event type 1 (EV_KEY)
+#     Event code 330 (BTN_TOUCH)
+#   Event type 3 (EV_ABS)
+#     Event code 0 (ABS_X)
+#       Value      0
+#       Min        0
+#       Max    32767
+#       Fuzz       0
+#       Flat       0
+#       Resolution 0
+#     Event code 1 (ABS_Y)
+#       Value      0
+#       Min        0
+#       Max    32767
+#       Fuzz       0
+#       Flat       0
+#       Resolution 0
+#     Event code 47 (ABS_MT_SLOT)
+#       Value      0
+#       Min        0
+#       Max        9
+#       Fuzz       0
+#       Flat       0
+#       Resolution 0
+#     Event code 53 (ABS_MT_POSITION_X)
+#       Value      0
+#       Min        0
+#       Max    32767
+#       Fuzz       0
+#       Flat       0
+#       Resolution 0
+#     Event code 54 (ABS_MT_POSITION_Y)
+#       Value      0
+#       Min        0
+#       Max    32767
+#       Fuzz       0
+#       Flat       0
+#       Resolution 0
+#     Event code 57 (ABS_MT_TRACKING_ID)
+#       Value      0
+#       Min        0
+#       Max    65535
+#       Fuzz       0
+#       Flat       0
+#       Resolution 0
+# Properties:
+#   Property  type 1 (INPUT_PROP_DIRECT)
 N: Touch CVTouch Device W215-10P
 I: 0003 1ff7 0013 0000
 P: 02 00 00 00 00 00 00 00
@@ -22,12 +77,15 @@ B: 11 00 00 00 00 00 00 00 00
 B: 12 00 00 00 00 00 00 00 00
 B: 15 00 00 00 00 00 00 00 00
 B: 15 00 00 00 00 00 00 00 00
-A: 00 0 32767 0 0
-A: 01 0 32767 0 0
-A: 2f 0 9 0 0
-A: 35 0 32767 0 0
-A: 36 0 32767 0 0
-A: 39 0 65535 0 0
+A: 00 0 32767 0 0 0
+A: 01 0 32767 0 0 0
+A: 2f 0 9 0 0 0
+A: 35 0 32767 0 0 0
+A: 36 0 32767 0 0 0
+A: 39 0 65535 0 0 0
+################################
+#      Waiting for events      #
+################################
 E: 1356077903.661600 0000 0000 0
 E: 1356077903.661648 0003 0039 0
 E: 1356077903.661653 0001 014a 1
