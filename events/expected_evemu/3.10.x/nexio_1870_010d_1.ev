@@ -1,0 +1,61 @@
+# EVEMU 1.2
+# Input device name: "Nexio Touch Device(HS) Nexio HID Multi-Touch ATI0460-06  Pen"
+# Input device ID: bus 0x03 vendor 0x1870 product 0x10d version 0000
+# Supported events:
+#   Event type 0 (EV_SYN)
+#     Event code 0 (SYN_REPORT)
+#     Event code 1 (SYN_CONFIG)
+#     Event code 3 (SYN_DROPPED)
+#     Event code 4 (FF_STATUS_STOPPED)
+#   Event type 1 (EV_KEY)
+#     Event code 320 (BTN_TOOL_PEN)
+#     Event code 330 (BTN_TOUCH)
+#     Event code 331 (BTN_STYLUS)
+#   Event type 3 (EV_ABS)
+#     Event code 0 (ABS_X)
+#       Value      0
+#       Min        0
+#       Max    16383
+#       Fuzz       0
+#       Flat       0
+#       Resolution 25
+#     Event code 1 (ABS_Y)
+#       Value      0
+#       Min        0
+#       Max    16383
+#       Fuzz       0
+#       Flat       0
+#       Resolution 41
+#   Event type 4 (EV_MSC)
+#     Event code 4 (MSC_SCAN)
+# Properties:
+N: Nexio Touch Device(HS) Nexio HID Multi-Touch ATI0460-06  Pen
+I: 0003 1870 010d 0000
+P: 00 00 00 00 00 00 00 00
+B: 00 1b 00 00 00 00 00 00 00
+B: 01 00 00 00 00 00 00 00 00
+B: 01 00 00 00 00 00 00 00 00
+B: 01 00 00 00 00 00 00 00 00
+B: 01 00 00 00 00 00 00 00 00
+B: 01 00 00 00 00 00 00 00 00
+B: 01 01 0c 00 00 00 00 00 00
+B: 01 00 00 00 00 00 00 00 00
+B: 01 00 00 00 00 00 00 00 00
+B: 01 00 00 00 00 00 00 00 00
+B: 01 00 00 00 00 00 00 00 00
+B: 01 00 00 00 00 00 00 00 00
+B: 01 00 00 00 00 00 00 00 00
+B: 02 00 00 00 00 00 00 00 00
+B: 03 03 00 00 00 00 00 00 00
+B: 04 10 00 00 00 00 00 00 00
+B: 05 00 00 00 00 00 00 00 00
+B: 11 00 00 00 00 00 00 00 00
+B: 12 00 00 00 00 00 00 00 00
+B: 15 00 00 00 00 00 00 00 00
+B: 15 00 00 00 00 00 00 00 00
+A: 00 0 16383 0 0 25
+A: 01 0 16383 0 0 41
+################################
+#      Waiting for events      #
+################################
+E: 1375896187.292302 0000 0000 0001	# ------------ SYN_REPORT (1) ----------
