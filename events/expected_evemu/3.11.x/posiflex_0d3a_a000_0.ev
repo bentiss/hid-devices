@@ -1,4 +1,4 @@
-# EVEMU 1.1
+# EVEMU 1.2
 # Input device name: "Posiflex Inc. USB TOUCH V390"
 # Input device ID: bus 0x03 vendor 0xd3a product 0xa000 version 0000
 # Supported events:
@@ -53,8 +53,8 @@ B: 11 00 00 00 00 00 00 00 00
 B: 12 00 00 00 00 00 00 00 00
 B: 15 00 00 00 00 00 00 00 00
 B: 15 00 00 00 00 00 00 00 00
-A: 00 0 4095 0 0
-A: 01 0 4095 0 0
+A: 00 0 4095 0 0 0
+A: 01 0 4095 0 0 0
 ################################
 #      Waiting for events      #
 ################################
