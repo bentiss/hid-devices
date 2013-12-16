@@ -1,0 +1,71 @@
+# EVEMU 1.2
+# Input device name: "N-trig DuoSense Pen"
+# Input device ID: bus 0x03 vendor 0x1b96 product 0xc03 version 0000
+# Supported events:
+#   Event type 0 (EV_SYN)
+#     Event code 0 (SYN_REPORT)
+#     Event code 1 (SYN_CONFIG)
+#     Event code 3 (SYN_DROPPED)
+#     Event code 4 (FF_STATUS_STOPPED)
+#   Event type 1 (EV_KEY)
+#     Event code 256 (BTN_0)
+#     Event code 320 (BTN_TOOL_PEN)
+#     Event code 321 (BTN_TOOL_RUBBER)
+#     Event code 330 (BTN_TOUCH)
+#     Event code 331 (BTN_STYLUS)
+#   Event type 3 (EV_ABS)
+#     Event code 0 (ABS_X)
+#       Value      0
+#       Min        0
+#       Max     9600
+#       Fuzz       0
+#       Flat       0
+#       Resolution 37
+#     Event code 1 (ABS_Y)
+#       Value      0
+#       Min        0
+#       Max     7200
+#       Fuzz       0
+#       Flat       0
+#       Resolution 49
+#     Event code 24 (ABS_PRESSURE)
+#       Value      0
+#       Min        0
+#       Max      256
+#       Fuzz       0
+#       Flat       0
+#       Resolution 0
+#   Event type 4 (EV_MSC)
+#     Event code 4 (MSC_SCAN)
+# Properties:
+N: N-trig DuoSense Pen
+I: 0003 1b96 0c03 0000
+P: 00 00 00 00 00 00 00 00
+B: 00 1b 00 00 00 00 00 00 00
+B: 01 00 00 00 00 00 00 00 00
+B: 01 00 00 00 00 00 00 00 00
+B: 01 00 00 00 00 00 00 00 00
+B: 01 00 00 00 00 00 00 00 00
+B: 01 01 00 00 00 00 00 00 00
+B: 01 03 0c 00 00 00 00 00 00
+B: 01 00 00 00 00 00 00 00 00
+B: 01 00 00 00 00 00 00 00 00
+B: 01 00 00 00 00 00 00 00 00
+B: 01 00 00 00 00 00 00 00 00
+B: 01 00 00 00 00 00 00 00 00
+B: 01 00 00 00 00 00 00 00 00
+B: 02 00 00 00 00 00 00 00 00
+B: 03 03 00 00 01 00 00 00 00
+B: 04 10 00 00 00 00 00 00 00
+B: 05 00 00 00 00 00 00 00 00
+B: 11 00 00 00 00 00 00 00 00
+B: 12 00 00 00 00 00 00 00 00
+B: 15 00 00 00 00 00 00 00 00
+B: 15 00 00 00 00 00 00 00 00
+A: 00 0 9600 0 0 37
+A: 01 0 7200 0 0 49
+A: 18 0 256 0 0 0
+################################
+#      Waiting for events      #
+################################
+E: 0.000000 0000 0000 0001	# ------------ SYN_REPORT (1) ----------
