@@ -8,7 +8,7 @@ The tree is organised as such:
 - events/: root of the database
 - events/DEVICE_TYPE: the HID recordings, classed by the
   DEVICE_TYPE they belong to.
-- expected_evemu/3.YY.x/: some evemu recordings of what to
+- events/expected_evemu/3.YY.x/: some evemu recordings of what to
   expect from the HID device when connected to the host using
   a kernel v3.YY.
 
