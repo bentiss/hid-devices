@@ -1,0 +1,39 @@
+# EVEMU 1.2
+# Input device name: "Anton Touch Pad Keypad"
+# Input device ID: bus 0x03 vendor 0x1130 product 0x3101 version 0000
+# Supported events:
+#   Event type 0 (EV_SYN)
+#     Event code 0 (SYN_REPORT)
+#     Event code 17 ((null))
+#   Event type 17 (EV_LED)
+#     Event code 0 (LED_NUML)
+#     Event code 1 (LED_CAPSL)
+#     Event code 2 (LED_SCROLLL)
+# Properties:
+N: Anton Touch Pad Keypad
+I: 0003 1130 3101 0000
+P: 00 00 00 00 00 00 00 00
+B: 00 01 00 02 00 00 00 00 00
+B: 01 00 00 00 00 00 00 00 00
+B: 01 00 00 00 00 00 00 00 00
+B: 01 00 00 00 00 00 00 00 00
+B: 01 00 00 00 00 00 00 00 00
+B: 01 00 00 00 00 00 00 00 00
+B: 01 00 00 00 00 00 00 00 00
+B: 01 00 00 00 00 00 00 00 00
+B: 01 00 00 00 00 00 00 00 00
+B: 01 00 00 00 00 00 00 00 00
+B: 01 00 00 00 00 00 00 00 00
+B: 01 00 00 00 00 00 00 00 00
+B: 01 00 00 00 00 00 00 00 00
+B: 02 00 00 00 00 00 00 00 00
+B: 03 00 00 00 00 00 00 00 00
+B: 04 00 00 00 00 00 00 00 00
+B: 05 00 00 00 00 00 00 00 00
+B: 11 07 00 00 00 00 00 00 00
+B: 12 00 00 00 00 00 00 00 00
+B: 15 00 00 00 00 00 00 00 00
+B: 15 00 00 00 00 00 00 00 00
+################################
+#      Waiting for events      #
+################################
